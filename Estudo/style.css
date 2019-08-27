@@ -1,0 +1,30 @@
+body {
+    margin: 0!important;
+    height: 100vh;
+    /* VH (viewport) é responsivel, ele vai crescer de acordo com o tamanho dos filhos, ele pega a altura do navegador que está sendo utilizado*/
+}
+
+.tudo {
+    display: flex;
+    flex: 1;
+    /*height pegará 100% do tamanho total da tela*/
+    padding: 50px;
+    height: calc(100% - 100px);
+}
+
+.tudo .a {
+    display: flex;
+    flex: 1;
+    background-color: aquamarine;
+    padding: 50px;
+    /*Calculado para os 4 lados das páginas*/
+    height: calc(100% - 100px);
+    flex-wrap: wrap;
+    /*serve para quebrar */
+}
+
+.tudo .a .b {
+    background: blue;
+    height: 50%;
+    width: 50%;
+}
