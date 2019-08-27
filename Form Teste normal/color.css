@@ -1,0 +1,24 @@
+body {
+    margin: 0!important;
+    /*Sem Margem*/
+    height: 100vh;
+    /* VH (viewport) é responsivel, ele vai crescer de acordo com o tamanho dos filhos, ele pega a altura do navegador que está sendo utilizado*/
+    background-color: blanchedalmond;
+    padding: 50px;
+    flex-wrap: wrap;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.formul {
+    display: flex;
+    flex: 1;
+}
+
+.formul .texto {
+    font-style: oblique;
+    font-size: 15px;
+    padding: 15px;
+    flex-wrap: wrap;
+    background-color: aquamarine;
+}
